@@ -23,3 +23,6 @@ liudezhi:我也不知道什么原因，iNewCOS在他本地更新了master并git push origin master
   126  git branch
   127  history
 虽然最后解决了冲突，但是根本就没把inewcos的工作加进来。不知为啥？可能是.docx文档的原因？所以先暂停.docx，改用别的文档试试。
+
+inewcos:
+再用txt文档试试：目前是在dev分支上，我要git push origin dev;然后 new request，再看看我的工作是否保存到根库上了。
