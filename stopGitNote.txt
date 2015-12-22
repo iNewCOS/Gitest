@@ -1,0 +1,25 @@
+liudezhi:我也不知道什么原因，iNewCOS在他本地更新了master并git push origin master，然后想我请求pull request（但在此之前，我更新了我的远程仓库）
+于是，产生了冲突，我按照github的指示,（虽然切换到inewcos-master分支，但是还是我的工作，根本不是他的工作，why？）
+ git checkout -b iNewCOS-master master
+  107  git branch
+  108  git pull git://github.com/iNewCOS/Gitest.git
+  109  git checkout master
+  110  git branch
+  111  git checkout master
+  112  git status
+  113  git status
+  114  git diff
+  115  git branch
+  116  git checkout master
+  117  git commit -m "can not find the conflicts"
+  118  git status
+  119  git add .
+  120  git status
+  121  git commit -m "can not find the conflicts"
+  122  git status
+  123  git checkout master
+  124  git merge --no-ff iNewCOS-master
+  125  git push origin master
+  126  git branch
+  127  history
+虽然最后解决了冲突，但是根本就没把inewcos的工作加进来。不知为啥？可能是.docx文档的原因？所以先暂停.docx，改用别的文档试试。
