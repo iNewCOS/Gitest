@@ -26,3 +26,12 @@ liudezhi:我也不知道什么原因，iNewCOS在他本地更新了master并git push origin master
 
 inewcos:
 再用txt文档试试：目前是在dev分支上，我要git push origin dev;然后 new request，再看看我的工作是否保存到根库上了。
+
+
+inewcos：
+我不知道liudezhi的仓库更新没更新，我也不管那么多了，继续在我本地上开发。
+iNewCOS@dazhi-PC MINGW64 /f/Projects/git/Gitest (dev)
+$ git branch
+* dev
+  master
+我一看是在dev分支上，那正好，随便加点什么吧。去water.txt那改改（故意搞点冲突出来，然后看看怎么解决。）
